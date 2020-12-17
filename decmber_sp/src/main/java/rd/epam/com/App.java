@@ -10,9 +10,9 @@ public class App {
     public static void main(String[] args) {
         List<Student> students = new ArrayList();
 
-        Student student = new Student("Андрей", "Юрьевич");
+        Student student = new Student("Евгений", "Равильевич");
         student.setGroup(Group.FIRST);
-        student.setSecondName("Иванов");
+        student.setSecondName("Каримов");
 
         students.add(student);
         students.forEach(System.out::println);
